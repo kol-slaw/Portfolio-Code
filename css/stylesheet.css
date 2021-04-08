@@ -1,0 +1,106 @@
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: avenir;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+h2{
+  font-family: avenir;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+h3{
+  font-family: avenir;
+  font-weight: 600;
+}
+
+body {
+  font-family: avenir;
+  background: #F6F7EB;
+  color: #393E41;
+  padding: 8px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #F6F7EB;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #393E41;
+  align-content: left;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #F6F7EB;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  font-style: italic;
+
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #926376;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #F6F7EB;
+  padding: 20px;
+  margin-top: 20px;
+  border:1px dotted black;
+  min-width: 240px;
+  max-width: 800px;
+  margin: 0 auto;
+
+
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F6F7EB;
+  margin-top: 20px;
+  float: center;
+  display: block;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  
+
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
